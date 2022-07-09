@@ -1,5 +1,5 @@
 # _printf
-```_printf``` is a custom implementation of the C programming function ```printf```. This project is an application of the C programming knowledge that [Holberton School](https://www.holbertonschool.com/) cohort 14 students have learned.
+```_printf``` is a custom implementation of the C programming function ```printf```.
 
 **Prototype:** ```int _printf(const char *, ...);```
 
@@ -37,7 +37,7 @@
 ## Project Requirements
 * All files will be compiled on Ubuntu 14.04 LTS
 * Programs and functions will be compiled with gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic
-* Code must follow the [Betty](https://github.com/holbertonschool/Betty/wiki) style
+* Code must follow the [Betty] style
 * Global variables are not allowed
 * Authorized functions and macros:
   * ```write``` (man 2 write)
@@ -73,7 +73,7 @@
 **_putchar.c**
 * contains the function ```_putchar```, which writes a character to stdout.
 
-**holberton.h**
+**main.h**
 *contains all function prototypes used for ```_printf```.
 
 **man_3_printf**
@@ -97,11 +97,3 @@
 
 **writee_handlers.c**
 * contains write functions.
-
-## Directory Descriptions
-**tests**
-* contains the test cases for ```_printf```.
-
-## Authors
-[Renato Leon](https://github.com/renatoleonholberton) | [Joshua Enrico](https://github.com/yoyogold-a11)
-
